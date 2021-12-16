@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bakbak+One&family=Bebas+Neue&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contactame</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header-index">
+            <nav class="navigator">
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Reseñas</a></li>
+                        <li><a href="about.html">Sobre mí</a></li>
+                        <li><a href="contact.html">Contactame</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-contact">
+                <h1>CONTACTAME</h1>
+                <p>¿Querés sugerirme una película, hacer un aporte o enviarme comentarios? Completá tus datos abajo para ponernos en contacto :)</p>
+                <form class="form-contact">
+                    <label for="name-surname">Nombre y apellido: </label>
+                    <input type="text" id="name" required>
+                    <label for="accion">Tema: </label>
+                    <select name="accion" id="accion" required>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="aporte">Aporte</option>
+                        <option value="comentarios">Comentarios</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                    <label for="mensaje">Dejame tu mensaje: </label>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Haz click aquí para escribir..."></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </header>
+    </div>
+</body>
+</html>

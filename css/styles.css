@@ -1,0 +1,486 @@
+body{
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+   /* background-color: black;*/
+}
+
+/*HOME*/
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-index{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navigator{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content:flex-end;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items ul{
+    text-decoration: none;
+}
+.nav-items li{
+    display: inline;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+.nav-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #51ff00;
+    padding: 8px;
+}
+.nav-items a:hover{
+   color: transparent;
+    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: #51ff00;
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 85%;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.me{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 0.08rem;
+    -webkit-text-stroke-color: #51ff00;
+    font-size: 4.7rem;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px 50px;
+}
+.you{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 0.001rem;
+    -webkit-text-stroke-color: #fffb1c;
+    font-size: 4.7rem;
+    padding: 10px;
+    margin: 10px 50px;
+}
+.us{
+    font-size: 5rem;
+    font-family: 'Alfa Slab One', cursive;
+    color: transparent;
+    -webkit-text-stroke-width: 0.01rem;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
+    text-transform: uppercase;
+    margin: 30px 30px 0px 30px;
+    text-align: end;
+}
+
+/*REVIEWS*/
+.header-reviews{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.container-reviews{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*height: 85%;*/
+    background-image: url(/images/background.jpg);
+  /*  background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center center;
+}
+.title{
+    font-family: 'Alfa Slab One', cursive;
+    color: transparent;
+    -webkit-text-stroke-width: 0.01rem;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
+    text-align: center;
+    font-size: 50px;
+}
+.container-reviews img{
+    height: 290px;
+    width: 210px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container-peliculas{
+    /*height: 80%;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pelicula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: rgb(0, 0, 0);*/
+    /*background-image: url("/images/rose.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgba(150, 150, 150, 0.3);
+
+    width: 25%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.pelicula:hover{
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.5);
+    cursor: pointer;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.p h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    /*color:  black;*/
+    color: transparent;
+    -webkit-text-stroke-width: 0.03rem;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.p p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+}
+
+.p a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: #51ff00;
+    font-weight: 600;
+}
+
+/*SOBRE MI*/
+.container-about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header-about{
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+    width: 100%;
+    background-color: black;
+}
+.info-about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    padding: 0;
+    margin: 0;
+    background-image: url(/images/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.info-about p{
+    margin: 10px 150px;
+    line-height: 25px;
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+}
+
+/*CONTACT*/
+.container-contact{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 90%;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-contact h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: transparent;
+    -webkit-text-stroke-width: 0.01rem;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-contact p{
+    width: 70%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+.form-contact{
+    width: 70%;
+    height: 85%;
+    background-color: rgba(148, 147, 147, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.form-contact input{
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.form-contact select{
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.form-contact textarea{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.form-contact button{
+    font-weight: 700;
+    width: 30%;
+    height: 10%;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.form-contact button:hover{
+    background-color: rgba(0, 255, 64, 0.3);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+/*TABLETA*/
+@media(max-width: 768px){
+    /*HOME*/
+    .me{
+        font-size: 4rem;
+    }
+    .you{
+        font-size: 4rem;
+    }
+    .us{
+        font-size: 4.3rem;
+    }
+
+    /*REVIEWS*/
+    .container-reviews img{
+        height: 220px;
+        width: 150px;
+    }
+
+    .p h2{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    .p p{
+        font-size: 1rem;
+    }
+
+    /*SOBRE MÍ*/
+    .info-about p{
+        margin: 10px 100px;
+        font-size: 1rem;
+    }
+}
+
+/*MÓVIL L*/
+
+@media(max-width: 425px){
+    /*HOME*/
+    .nav-items li{
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .me{
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+    .you{
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+    .us{
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+
+    /*REVIEWS*/
+    .container-peliculas{
+        flex-direction: column;
+    }
+
+    .pelicula{
+        width: 60%;
+    }
+
+    .p p{
+        font-size: 0.9rem;
+    }
+
+    /*SOBRE MÍ*/
+    .info-about p{
+        margin: 0px 50px 10px 50px;
+        font-size: 0.7rem;
+    }
+
+    /*CONTACT*/
+
+    .container-contact{
+        height: auto;
+        background-image: url(/images/background.jpg);
+        background-repeat: repeat;
+    }
+    .form-contact{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .container-contact h1{
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+    }
+
+    .container-contact p{
+        margin-bottom: 15px;
+        font-size: 0.9rem;
+    }
+
+    .container-contact input{
+        margin: 5px 0 15px 0;
+        width: 60%;
+    }
+    .container-contact select{
+        margin: 5px 0 15px 0;
+        width: 60%;
+    }
+
+    .container-contact textarea{
+        margin: 5px 0 15px 0;
+        width: 90%;
+    }
+
+    .container-contact button{
+        width: 60%;
+        background-color: black;
+        color: white;
+    }
+}
+
+/*MÓVIL M*/
+
+@media(max-width: 375px){
+    /*HOME*/
+    .nav-items li{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .me{
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+    .you{
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+    .us{
+        font-size: 2.9rem;
+        margin-top: 40px;
+    }
+
+    /*SOBRE MÍ*/
+    .info-about{
+        height: auto;
+    }
+
+    /*CONTACT*/
+    .container-contact h1{
+        font-size: 2.6rem;
+    }
+}
+
+/*MOVIL S*/
+@media (max-width: 320px){
+    /*HOME*/
+    .nav-items li{
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    .me{
+        font-size: 2.2rem;
+        margin: 15px;
+    }
+    .you{
+        font-size: 2.2rem;
+        margin: 15px;
+    }
+    .us{
+        font-size: 2.4rem;
+        margin-top: 40px;
+    }
+
+    /*CONTACT*/
+    .container-contact h1{
+        font-size: 2.3rem;
+    }
+}
